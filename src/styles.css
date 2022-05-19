@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  background-color: rgb(17, 69, 90);
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.actions button {
+  margin: 0 5px;
+}
+
+.avatar img {
+  width: 50px;
+}
+
+.full-name {
+  text-align: left;
+}
+
+.modal-avatar {
+  text-align: center;
+}
+
+.modal-avatar img {
+  width: 200px;
+}
+
+.no-data {
+  text-align: center;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+#del-message {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  border: 1px solid rgb(192, 243, 192);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.genereate {
+  width: 300px;
+  border: 1px solid #dddddd;
+  margin-top: 10px;
+  padding: 5px;
+}
